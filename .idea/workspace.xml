@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873aaac0-2299-4e6c-8c2a-66573ebbae65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/PermMissingElemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/FrogJmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/FrogJmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/FrogJmpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/FrogJmpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AGnkQrRgPxX4dCvk3GZF6yMzxb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -90,30 +92,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.FrogJmpTest.test">
-    <configuration name="BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;dev.gustavoteixeira.lesson1.BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.PermMissingElemTest.test">
     <configuration name="BinaryGapTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,13 +185,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="PermMissingElemTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;dev.gustavoteixeira.lesson3.PermMissingElemTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PermMissingElemTest.test" />
         <item itemvalue="Gradle.FrogJmpTest.test" />
         <item itemvalue="Gradle.OddOccurrencesInArrayTest.test" />
         <item itemvalue="Gradle.NseiONomeTest.test" />
         <item itemvalue="Gradle.BinaryGapTest.test" />
-        <item itemvalue="Gradle.BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +228,7 @@
       <updated>1654644935761</updated>
       <workItem from="1654644935763" duration="3889000" />
       <workItem from="1654650396127" duration="2783000" />
-      <workItem from="1654654914458" duration="7499000" />
+      <workItem from="1654654914458" duration="8636000" />
     </task>
     <servers />
   </component>
