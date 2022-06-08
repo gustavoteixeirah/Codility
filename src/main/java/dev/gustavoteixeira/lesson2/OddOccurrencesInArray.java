@@ -1,17 +1,22 @@
 package dev.gustavoteixeira.lesson2;
 
+import java.util.HashSet;
+
 public class OddOccurrencesInArray {
 
     public static int solution(int[] A) {
-        var theOneLeftAlone = 0;
+
+        var hashMap = new HashSet<>();
         for (int i = 0; i < A.length; i++) {
-            System.out.println(i);
-            if (!hasMatchingPair(A[i], A, i) && A[i] != -1) {
-                theOneLeftAlone = A[i];
-                break;
+            if (hashMap.contains(A[i])) {
+                hashMap.remove(A[i]);
+            } else {
+                hashMap.add(A[i]);
             }
         }
-        return theOneLeftAlone;
+
+
+        return (int) hashMap.stream().findFirst().get();
     }
 
     public static boolean hasMatchingPair(int number, int[] array, int index) {
