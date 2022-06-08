@@ -12,7 +12,7 @@ import static org.junit.jupiter.params.provider.Arguments.of;
 
 public class FrogJmpTest {
 
-    @ParameterizedTest(name = "#{index} - Number {0} should have {1} gaps")
+    @ParameterizedTest(name = "#{index} - X {0} Y {1} D {2} should jump {3} times")
     @MethodSource("arguments")
     void test(int X, int Y, int D, int expected) {
         assertThat(FrogJmp.solution(X, Y, D)).isEqualTo(expected);
@@ -21,6 +21,11 @@ public class FrogJmpTest {
     private static Stream<Arguments> arguments() {
         return Stream.of(
                 of(10, 85, 30, 3),
+                of(0, 10, 1, 10),
+                of(0, 10, 20, 1),
+                of(10, 100, 10, 9),
+                of(10, 10, 10, 0),
+                of(9, 29, 10, 2),
                 of(10, 10, 30, 0)
         );
     }
