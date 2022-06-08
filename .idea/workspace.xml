@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873aaac0-2299-4e6c-8c2a-66573ebbae65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson1/BinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson1/BinaryGap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/ApplicationTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,24 +87,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Developments/Repositories/Codility",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.ApplicationTest">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.gustavoteixeira.Application" />
-      <module name="Codility.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.gustavoteixeira.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.BinaryGapTest.test">
     <configuration name="ApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationTest.deveRetornarUmGapDeTamanho5NoNumero1041" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApplicationTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +153,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dev.gustavoteixeira.ApplicationTest.deveRetornarUmGapDeTamanho5NoNumero1041&quot;" />
+            <option value="&quot;dev.gustavoteixeira.ApplicationTest.isBlank_ShouldReturnTrueForNullOrBlankStrings&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,7 +163,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ApplicationTest.deveRetornarUmGapDeTamanho5NoNumeroGRANDE" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -194,7 +176,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dev.gustavoteixeira.ApplicationTest.deveRetornarUmGapDeTamanho5NoNumeroGRANDE&quot;" />
+            <option value="&quot;dev.gustavoteixeira.lesson1.BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BinaryGapTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;dev.gustavoteixeira.lesson1.BinaryGapTest.test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinaryGapTest.test" />
+        <item itemvalue="Gradle.BinaryGapTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" />
+        <item itemvalue="Gradle.ApplicationTest.isBlank_ShouldReturnTrueForNullOrBlankStrings" />
         <item itemvalue="Gradle.ApplicationTest" />
         <item itemvalue="Gradle.ApplicationTest.deveRetornarUmGapDeTamanho0NoNumero32" />
-        <item itemvalue="Gradle.ApplicationTest.deveRetornarUmGapDeTamanho5NoNumeroGRANDE" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Gradle.ApplicationTest.deveRetornarUmGapDeTamanho5NoNumero1041" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +229,7 @@
       <updated>1654644935761</updated>
       <workItem from="1654644935763" duration="3889000" />
       <workItem from="1654650396127" duration="2783000" />
+      <workItem from="1654654914458" duration="1726000" />
     </task>
     <servers />
   </component>
