@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873aaac0-2299-4e6c-8c2a-66573ebbae65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/PermMissingElemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/IdkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,38 +85,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Developments/Repositories/Codility",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Developments/Repositories/Codility&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.PermMissingElemTest.test">
-    <configuration name="BinaryGapTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;dev.gustavoteixeira.lesson1.BinaryGapTest.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Gradle.IdkTest.test">
     <configuration name="FrogJmpTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -130,6 +108,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;dev.gustavoteixeira.lesson3.FrogJmpTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="IdkTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;dev.gustavoteixeira.lesson3.IdkTest.test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -185,7 +186,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PermMissingElemTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PermMissingElemTest.test (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -210,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PermMissingElemTest.test" />
+        <item itemvalue="Gradle.IdkTest.test" />
+        <item itemvalue="Gradle.PermMissingElemTest.test (1)" />
         <item itemvalue="Gradle.FrogJmpTest.test" />
         <item itemvalue="Gradle.OddOccurrencesInArrayTest.test" />
         <item itemvalue="Gradle.NseiONomeTest.test" />
-        <item itemvalue="Gradle.BinaryGapTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +229,8 @@
       <updated>1654644935761</updated>
       <workItem from="1654644935763" duration="3889000" />
       <workItem from="1654650396127" duration="2783000" />
-      <workItem from="1654654914458" duration="8636000" />
+      <workItem from="1654654914458" duration="9335000" />
+      <workItem from="1654737026788" duration="2051000" />
     </task>
     <servers />
   </component>
@@ -245,5 +247,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
