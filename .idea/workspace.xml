@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873aaac0-2299-4e6c-8c2a-66573ebbae65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/IdkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/PermMissingElem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/TapeEquilibrium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/TapeEquilibrium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/TapeEquilibriumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dev/gustavoteixeira/lesson3/TapeEquilibriumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.IdkTest.test">
+  <component name="RunManager" selected="Gradle.TapeEquilibriumTest.test">
     <configuration name="FrogJmpTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,29 +130,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;dev.gustavoteixeira.lesson3.IdkTest.test&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="NseiONomeTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;dev.gustavoteixeira.lesson2.NseiONomeTest.test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,13 +185,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TapeEquilibriumTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;dev.gustavoteixeira.lesson3.TapeEquilibriumTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TapeEquilibriumTest.test" />
         <item itemvalue="Gradle.IdkTest.test" />
         <item itemvalue="Gradle.PermMissingElemTest.test (1)" />
         <item itemvalue="Gradle.FrogJmpTest.test" />
         <item itemvalue="Gradle.OddOccurrencesInArrayTest.test" />
-        <item itemvalue="Gradle.NseiONomeTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +229,7 @@
       <workItem from="1654644935763" duration="3889000" />
       <workItem from="1654650396127" duration="2783000" />
       <workItem from="1654654914458" duration="9335000" />
-      <workItem from="1654737026788" duration="2051000" />
+      <workItem from="1654737026788" duration="3134000" />
     </task>
     <servers />
   </component>
@@ -247,21 +246,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dev/gustavoteixeira/lesson3/Idk.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

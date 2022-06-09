@@ -8,7 +8,7 @@ public class TapeEquilibrium {
     public static int solution(int[] array) {
         // get the number of possible slices
         var sliceIndexQuantity = array.length - 1;
-
+        if (sliceIndexQuantity == 1) return (int) getAbsDiff(array[0], array[1]);
         // variable that holds the lesser value
         long minimalDifference = Long.MAX_VALUE;
 
@@ -19,13 +19,17 @@ public class TapeEquilibrium {
             // call the function (calculate right slice)
             var rightSliceSum = getRightSliceSum(array, i);
 
-            var currentMinimalDifference = abs(leftSliceSum - rightSliceSum);
+            var currentMinimalDifference = getAbsDiff(leftSliceSum, rightSliceSum);
             if (minimalDifference > currentMinimalDifference)
                 minimalDifference = currentMinimalDifference;
         }
 
 
         return (int) minimalDifference;
+    }
+
+    private static long getAbsDiff(long x, long y) {
+        return abs(x - y);
     }
 
     private static long getRightSliceSum(int[] array, int i) {

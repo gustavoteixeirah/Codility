@@ -19,7 +19,8 @@ public class TapeEquilibriumTest {
 
     private static Stream<Arguments> arguments() {
         return Stream.of(
-                of(new int[]{3, 1, 2, 4, 3}, 1)
+                of(new int[]{3, 1, 2, 4, 3}, 1),
+                of(new int[]{1, 1}, 0)
         );
     }
 }
